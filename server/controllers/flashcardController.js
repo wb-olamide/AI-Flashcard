@@ -1,4 +1,4 @@
-import Flashcard from "../models/Flashcard.js";
+import Flashcard from "../models/flashcard.js";
 
 export const createFlashcard = async (req, res) => {
   try {
