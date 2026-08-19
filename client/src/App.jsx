@@ -13,7 +13,7 @@ function App() {
       <Navbar />
       <Routes>
         {/* Public Routes  */}
-        <Route index element={<Login />} />
+        <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
 
         {/* Dashboard Routes  */}
